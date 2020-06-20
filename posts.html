@@ -23,8 +23,8 @@
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li class="active"><a href="">Dashboard</a></li>
-          <li><a href="posts.html">Posts</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li class="active"><a href="posts.html">Posts</a></li>
           <li><a href="categories.html">Categories</a></li>
           <li><a href="comments.html">Comments</a></li>
           <li><a href="users.html">Users</a></li>
@@ -37,10 +37,10 @@
               </div>
               <a href="#"><img src="img/person1.jpg" alt="" class="circle">
               </a>
-              <a href="">
+              <a href="#">
                 <span class="name white-text">John Doe</span>
               </a>
-              <a href="">
+              <a href="#">
                 <span class="email white-text">jdoe@gmail.com</span>
               </a>
             </div>
@@ -65,163 +65,85 @@
           </li>
           <li><a class="subheader">Account Controls</a></li>
           <li><a href="login.html" class="waves-effect">Logout</a></li>
-
         </ul>
       </div>
     </div>
   </nav>
-  <!-- Section: Stats -->
-  <section class="section section-stat center">
-    <div class="row">
-      <div class="col s12 m6 l3">
-        <div class="card-panel blue lighten-1 white-text">
-          <i class="material-icons medium">insert_emoticon</i>
-          <h5>Monthly Visitors</h5>
-          <h3 class="count">28334</h3>
-          <div class="progress grey lighten-1">
-            <div class="determinate white" style="width:40%;"></div>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m6 l3">
-        <div class="card-panel white lighten-1 blue-text">
-          <i class="material-icons medium">mode_edit</i>
-          <h5>Blog Post</h5>
-          <h3 class="count">105</h3>
-          <div class="progress grey lighten-1">
-            <div class="determinate blue" style="width:50%;"></div>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m6 l3">
-        <div class="card-panel blue lighten-1 white-text">
-          <i class="material-icons medium">mode_comment</i>
-          <h5>Comments</h5>
-          <h3 class="count">1204</h3>
-          <div class="progress grey lighten-1">
-            <div class="determinate white" style="width:80%;"></div>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m6 l3">
-        <div class="card-panel white lighten-1 blue-text">
-          <i class="material-icons medium">supervisor_account</i>
-          <h5>Users</h5>
-          <h3 class="count">356</h3>
-          <div class="progress grey lighten-1">
-            <div class="determinate blue" style="width:10%;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Section: Visitors -->
-  <section class="section section-visitors blue lighten-4">
-    <div class="row">
-      <div class="col s12 m6 l8">
-        <!-- Chart -->
-        <div class="card-panel">
-          <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-        </div>
-      </div>
-      <div class="col s12 m6 l4">
-        <!-- Latest Comments -->
-        <ul class="collection with-header latest-comments">
-          <li class="collection-header">
-            <h5>Latest Comments</h5>
-          </li>
-          <li class="collection-item avatar"><img src="img/person1.jpg" alt="" class="circle">
-            <span class="title">John Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti laudantium commodi, nostrum at quae eius blanditiis dolores pariatur harum voluptas?</p>
-            <a href="#" class="approve green-text">Approve</a> |
-            <a href="#" class="deny red-text">Deny</a>
-          </li>
-          <li class="collection-item avatar"><img src="img/person2.jpg" alt="" class="circle">
-            <span class="title">Carlos Santillan</span>
-            <p class="truncate">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti laudantium commodi, nostrum at quae eius blanditiis dolores pariatur harum voluptas?</p>
-            <a href="#" class="approve green-text">Approve</a> |
-            <a href="#" class="deny red-text">Deny</a>
-          </li>
-          <li class="collection-item avatar"><img src="img/person3.jpg" alt="" class="circle">
-            <span class="title">Elie Ng</span>
-            <p class="truncate">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti laudantium commodi, nostrum at quae eius blanditiis dolores pariatur harum voluptas?</p>
-            <a href="#" class="approve green-text">Approve</a> |
-            <a href="#" class="deny red-text">Deny</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!-- Recent Post & Todos -->
-  <section class="section section-posts">
+  <!-- Section: Posts -->
+  <section class="section section-post">
+    <div class="container">
       <div class="row">
-        <div class="col s12 m6 l8">
+        <div class="col s12">
           <div class="card">
             <div class="card-content">
-              <span class="card-title">Recent Post</span>
+              <span class="card-title">post</span>
               <table class="striped">
                 <thead>
                   <tr>
                     <th>Title</th>
                     <th>Category</th>
-                    <th>    </th>
+                    <th>Date Created</th>
+                    <th>   </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>Post One</td>
                     <td>Web Development</td>
-                    <td><a href="" class="waves-effect waves-light blue btn">details</a></td>
+                    <td>Jan 1, 2020</td>
+                    <td><a href="#" class="btn blue">details</a></td>
                   </tr>
                   <tr>
                     <td>Post Two</td>
                     <td>Graphic Design</td>
-                    <td><a href="" class="waves-effect waves-light blue btn">details</a></td>
+                    <td>Jan 2, 2020</td>
+                    <td><a href="#" class="btn blue">details</a></td>
                   </tr>
                   <tr>
                     <td>Post Three</td>
                     <td>Web Development</td>
-                    <td><a href="" class="waves-effect waves-light blue btn">details</a></td>
+                    <td>Jan 3, 2020</td>
+                    <td><a href="#" class="btn blue">details</a></td>
+                  </tr>
+                  <tr>
+                    <td>Post Four</td>
+                    <td>Tech Gadgets</td>
+                    <td>Jan 5, 2020</td>
+                    <td><a href="#" class="btn blue">details</a></td>
+                  </tr>
+                  <tr>
+                    <td>Post Five</td>
+                    <td>Graphic Design</td>
+                    <td>Jan 6, 2020</td>
+                    <td><a href="#" class="btn blue">details</a></td>
+                  </tr>
+                  <tr>
+                    <td>Post Six</td>
+                    <td>Web Development</td>
+                    <td>Jan 7, 2020</td>
+                    <td><a href="#" class="btn blue">details</a></td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title">Quick Todos</span>
-              <form>
-                <div class="input-field">
-                  <input placeholder="Add todo ..." id="todo" type="text">
-                </div>
-              </form>
-              <ul class="collection">
-                <li class="collection-item">
-                  <span>Todo One </span>
-                  <a href="#" class="secondary-content blue-text">
-                    <i class="material-icons">close</i>
-                  </a></li>
-                <li class="collection-item">
-                  <span>Todo Two</span>
-                  <a href="#" class="secondary-content blue-text">
-                    <i class="material-icons">close</i>
-                  </a>
-                </li>
-                <li class="collection-item">
-                  <span>Todo Three</span>
-                  <a href="#" class="secondary-content blue-text">
-                    <i class="material-icons">close</i>
-                  </a>
-                </li> 
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
+    <ul class="pagination">
+      <li class="disabled">
+        <a href="" class="blue-text"><i class="material-icons">chevron_left</i></a>
+        <li class="active blue"><a href="#">1</a></li>
+        <li><a href="#" class="blue-text">2</a></li>
+        <li><a href="#" class="blue-text">3</a></li>
+        <li><a href="#" class="blue-text">4</a></li>
+        <li><a href="#" class="blue-text">5</a></li>
+        <li class="disabled"><a href="#" class="blue-text"><i class="material-icons">chevron_right</i></a></li>
+      </li>
+    </ul>
   </section>
+
+  
 
   <!-- Footer -->
   <footer>
@@ -291,7 +213,7 @@
         </div>
       </form>
       <div class="modal-footer">
-        <a href="" class="modal-action modal-close btn blue white-text">Submit</a>
+        <a href="#" class="modal-action modal-close btn blue white-text">Submit</a>
       </div>
     </div>
   </div>
@@ -299,7 +221,7 @@
   <div class="modal black-text" id="user-modal">
     <div class="modal-content">
       <h4>Add User</h4>
-      <form action="">
+      <form>
         <div class="input-field">
           <input type="text" id="name">
           <label for="name">name</label>
@@ -318,7 +240,7 @@
         </div>
       </form>
       <div class="modal-footer">
-        <a href="" class="modal-action modal-close btn blue white-text">submit</a>
+        <a href="#" class="modal-action modal-close btn blue white-text">submit</a>
       </div>
     </div>
   </div>
