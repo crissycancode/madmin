@@ -14,3 +14,22 @@
     align-items: center;
     justify-content: center;
 }
+
+.login{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.btn-extend{
+    display:block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.section-users img, .section-comments img{
+  width:80px;
+  height:80px; 
+  margin-left: 30px;
+  margin-right: 20px;
+}
