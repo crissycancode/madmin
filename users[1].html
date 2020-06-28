@@ -23,11 +23,11 @@
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="#">Dashboard</a></li>
           <li><a href="posts.html">Posts</a></li>
           <li><a href="categories.html">Categories</a></li>
-          <li class="active blue"><a href="comments.html">Comments</a></li>
-          <li><a href="users.html">Users</a></li>
+          <li><a href="comments.html">Comments</a></li>
+          <li class="active"><a href="users.html">Users</a></li>
         </ul>
         <ul class="side-nav" id="side-nav">
           <li>
@@ -69,54 +69,79 @@
       </div>
     </div>
   </nav>
-  <!-- Section: Comments -->
-  <section class="section section-comments">
+  <!-- Section: Users -->
+  <section class="section section-users">
     <div class="container">
       <div class="row">
-        <div class="col s12">
+        <div class="col s12 m6 l12">
           <div class="card">
             <div class="card-content">
-              <span class="card-title">comments</span>
+              <span class="card-title">users</span>
               <table class="striped responsive-table">
+                <thead>
+                  <tr>
+                    <th class="row valign-wrapper">
+                      <div class="col s12 m6 l1"></div>
+                      <div class="col s12 m6 l2">name</div>
+                      <div class="col s12 m6 l2">email</div>
+                      <div class="col s12 m6 l2">registration</div>
+                      <div class="col s12 m6 l3 "></div>
+                    </th>
+                  </tr>
+                </thead>
                 <tbody>
                   <tr>
-                    <td width="70">
-                      <img src="img/person1.jpg" alt="" class="responsive-img circle" style="width: 40px;margin-left:10px;">
-                    </td>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, saepe!</td>
-                    <td>
-                      <a href="#" class="material-icons green-text">check</a><a href="#" class="material-icons red-text ">close</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="70">
-                      <img src="img/person2.jpg" alt="" class="responsive-img circle" style="width: 40px;margin-left:10px;">
-                    </td>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, saepe!</td>
-                    <td>
-                      <a href="#" class="material-icons green-text">check</a><a href="#" class="material-icons red-text ">close</a>
+                    <td class="row valign-wrapper">
+                      <div class="col s12 m6 l1">
+                        <img src="img/person1.jpg" alt="" class="circle responsive-img">
+                      </div>
+                      <div class="col s12 m6 l2">John Doe</div>
+                      <div class="col s12 m6 l2">jdoe@gmail.com</div>
+                      <div class="col s12 m6 l2">Jan 1, 2020</div>
+                      <div class="col s12 m6 l3 ">
+                        <a href="#" class="btn blue">details</a></div>
                     </td>
                   </tr>
                   <tr>
-                    <td width="70">
-                      <img src="img/person3.jpg" alt="" class="responsive-img circle" style="width: 40px;margin-left:10px;">
-                    </td>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, saepe!</td>
-                    <td>
-                      <a href="#" class="material-icons green-text">check</a><a href="#" class="material-icons red-text ">close</a>
+                    <td class="row valign-wrapper">
+                      <div class="col s12 m6 l1">
+                        <img src="img/person2.jpg" alt="" class="circle responsive-img">
+                      </div>
+                      <div class="col s12 m6 l2">Larry Walters</div>
+                      <div class="col s12 m6 l2">lwalters@gmail.com</div>
+                      <div class="col s12 m6 l2">Jan 3, 2020</div>
+                      <div class="col s12 m6 l3 ">
+                        <a href="#" class="btn blue">details</a></div>
                     </td>
                   </tr>
                   <tr>
-                    <td width="70">
-                      <img src="img/person4.jpg" alt="" class="responsive-img circle" style="width: 40px;margin-left:10px;">
+                    <td class="row valign-wrapper">
+                      <div class="col s12 m6 l1">
+                        <img src="img/person3.jpg" alt="" class="circle responsive-img">
+                      </div>
+                      <div class="col s12 m6 l2">Susan Williams</div>
+                      <div class="col s12 m6 l2">susan@gmail.com</div>
+                      <div class="col s12 m6 l2">Jan 5, 2020</div>
+                      <div class="col s12 m6 l3 ">
+                        <a href="#" class="btn blue">details</a>
+                      </div>
                     </td>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, saepe!</td>
-                    <td>
-                      <a href="#" class="material-icons green-text">check</a><a href="#" class="material-icons red-text ">close</a>
+                  </tr>
+                  <tr>
+                    <td class="row valign-wrapper">
+                      <div class="col s12 m6 l1">
+                        <img src="img/person4.jpg" alt="" class="circle responsive-img">
+                      </div>
+                      <div class="col s12 m6 l2">Jeff Burke</div>
+                      <div class="col s12 m6 l2">jburke@gmail.com</div>
+                      <div class="col s12 m6 l2">Jan 10, 2020</div>
+                      <div class="col s12 m6 l3 ">
+                        <a href="#" class="btn blue">details</a>
+                      </div>
                     </td>
                   </tr>
                 </tbody>
-              </table>
+              </table><!-- End of Table -->
             </div>
           </div>
         </div>
@@ -125,15 +150,16 @@
     <ul class="pagination">
       <li class="disabled">
         <a href="" class="blue-text"><i class="material-icons">chevron_left</i></a>
-        <li class="active blue"><a href="#">1</a></li>
-        <li><a href="#" class="blue-text">2</a></li>
-        <li><a href="#" class="blue-text">3</a></li>
-        <li><a href="#" class="blue-text">4</a></li>
-        <li><a href="#" class="blue-text">5</a></li>
-        <li class="disabled"><a href="#" class="blue-text"><i class="material-icons">chevron_right</i></a></li>
+      <li class="active blue"><a href="#">1</a></li>
+      <li><a href="#" class="blue-text">2</a></li>
+      <li><a href="#" class="blue-text">3</a></li>
+      <li><a href="#" class="blue-text">4</a></li>
+      <li><a href="#" class="blue-text">5</a></li>
+      <li class="disabled"><a href="#" class="blue-text"><i class="material-icons">chevron_right</i></a></li>
       </li>
     </ul>
   </section>
+
   <!-- Footer -->
   <footer>
     <div class="footer-copyright white-text blue darken-2 center">
@@ -259,45 +285,45 @@
     //Hide Section
     $('section').hide();
 
-    setTimeout(function(){
-      $(document).ready(function(){
-      //Show Section
+    setTimeout(function () {
+      $(document).ready(function () {
+        //Show Section
         $('section').fadeIn();
 
-      //Hide Preloader
+        //Hide Preloader
         $('.loader').fadeOut();
 
-      //Init Side nav
+        //Init Side nav
         $('.button-collapse').sideNav();
 
-      //Loader
+        //Loader
         $('.loader');
 
-      //Modal Init
+        //Modal Init
         $('.modal').modal();
 
-      //Select Init
+        //Select Init
         $('select').material_select();
 
-      //Counter
-        $('.count').each(function(){
-          $(this).prop('Counter',0).animate({
+        //Counter
+        $('.count').each(function () {
+          $(this).prop('Counter', 0).animate({
             Counter: $(this).text()
           }, {
             duration: 50000,
             easing: 'swing',
-            step: function(now){
+            step: function (now) {
               $(this).text(Math.ceil(now))
             }
           });
         }); //end of counter
 
-      //CK Editor
-        CKEDITOR.replace( 'body' );
+        //CK Editor
+        CKEDITOR.replace('body');
 
       }); //end of document ready
 
-    },1000); //end of setTimeout
+    }, 1000); //end of setTimeout
   </script>
 </body>
 
